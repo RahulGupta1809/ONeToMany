@@ -86,4 +86,3 @@ public class AnswerController {
         logger.info("Answer deleted successfully for id {}", id);
     }
 }
-
