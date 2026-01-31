@@ -1,7 +1,5 @@
 package com.cglia.onetomany.entity;
 
-
-
 import java.util.ArrayList;
 
 import java.util.List;
@@ -69,3 +67,4 @@ public class Question {
         answer.setQuestion(null);
     }
 }
+
