@@ -12,7 +12,6 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "answer")
 public class Answer {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -55,3 +54,4 @@ public class Answer {
 		this.question = question;
 	}
 }
+
