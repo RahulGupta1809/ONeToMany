@@ -32,7 +32,6 @@ public class QuestionController {
 
         return questions;
     }
-
     @GetMapping("/{id}")
     public Optional<Question> getQuestionById(@PathVariable Long id) {
         logger.info("GET /questions/{} - Fetching question by id", id);
@@ -89,4 +88,5 @@ public class QuestionController {
         logger.info("Question deleted successfully for id {}", id);
     }
 }
+
 
