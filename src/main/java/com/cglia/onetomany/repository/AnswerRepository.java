@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 import com.cglia.onetomany.entity.Answer;
 @Repository
 public interface AnswerRepository extends JpaRepository<Answer, Long> {
-
+//Main Class
 }
+
 
