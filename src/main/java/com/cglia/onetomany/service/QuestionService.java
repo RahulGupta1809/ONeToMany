@@ -2,13 +2,11 @@ package com.cglia.onetomany.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.cglia.onetomany.entity.Question;
 import com.cglia.onetomany.repository.QuestionRepository;
-
 import java.util.List;
 import java.util.Optional;
-
+//Question Service
 @Service
 public class QuestionService {
 
@@ -45,3 +43,4 @@ public class QuestionService {
 		questionRepository.deleteById(id);
 	}
 }
+
