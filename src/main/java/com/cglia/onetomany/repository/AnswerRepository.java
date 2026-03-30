@@ -7,7 +7,7 @@ import com.cglia.onetomany.entity.Answer;
 //Changes in Repository
 @Repository
 public interface AnswerRepository extends JpaRepository<Answer, Long> {
-//Main Class
+
 }
 
 
