@@ -8,7 +8,7 @@ import com.cglia.onetomany.entity.Answer;
 import com.cglia.onetomany.service.AnswerService;
 import java.util.List;
 import java.util.Optional;
-//new File
+
 @RestController
 @RequestMapping("/answers")
 public class AnswerController {
@@ -76,7 +76,6 @@ public class AnswerController {
             return ResponseEntity.notFound().build();
         }
     }
-
     @DeleteMapping("/delete/{id}")
     public void deleteAnswer(@PathVariable Long id) {
         logger.info("DELETE /answers/delete/{} - Deleting answer", id);
